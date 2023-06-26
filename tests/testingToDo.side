@@ -1,0 +1,567 @@
+{
+  "id": "fd0f26ac-ecf6-4531-b2da-c967fbb3e63e",
+  "version": "2.0",
+  "name": "testingToDo",
+  "url": "http://localhost:8080/",
+  "tests": [{
+    "id": "039a3064-98fa-4227-aa09-21083a6c30f1",
+    "name": "TaskList",
+    "commands": [{
+      "id": "8c0e2244-0d72-4574-9766-7603547a3f0b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef8dfdef-0f3b-455e-9017-655f47594837",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c54cbc16-0cc8-4d34-91c5-d4105c7d1601",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc47397-1618-4645-9b2e-2398b6bedc16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e35cb3-5d58-49e1-b2bd-dc5e4fa25aa9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a6dec113-3ccb-44a1-8f66-5851c0a3d1ee",
+    "name": "CreatingTask",
+    "commands": [{
+      "id": "ad435fe5-2ebe-4ce2-bd8d-092dcd681106",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a43618a-acbe-4c6e-99af-6c9b10f1245e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1063x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc4d4bb9-cc11-40b8-bb6d-146f82af6ef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33354fac-62fe-4c0a-9c0f-3a279ac12d37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb9fb0f-4b53-4f4c-b51b-731b612bdd5c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a60bfba-7587-4765-80fc-9adf72df0f7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd547a3e-36a3-47a8-baf1-ec509d4bfcc6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new task 2"
+    }, {
+      "id": "3eb62a29-84cc-439f-98a3-1b69ad927ef0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group:nth-child(1) .btn",
+      "targets": [
+        ["css=.input-group:nth-child(1) .btn", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21567ef4-3364-44ec-929b-96d136122c36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Todo List",
+      "targets": [
+        ["linkText=Todo List", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Todo List')]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/Home')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Todo List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73f1d02d-1d3c-407b-82aa-56ec78f04790",
+    "name": "modifyTask",
+    "commands": [{
+      "id": "1f45221b-a2c7-44b6-ae23-991875c5f4f7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac3fe465-688b-4a05-a843-1f865bc2be97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6487f585-7d60-44ad-bccc-37cd964f0b85",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0310314c-4344-42a9-bb7c-149f25d5ecd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(1) .btn-success",
+      "targets": [
+        ["css=.list-group-item:nth-child(1) .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90497eb7-7c62-4cab-8227-4199d510229c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body",
+      "targets": [
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c49898f-b7bf-40ba-9001-0aa77cd811be",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//ul[@id='todolist']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12311"
+    }, {
+      "id": "5f649450-0935-4028-bc46-62cc93955a9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(1) .btn-primary",
+      "targets": [
+        ["css=.list-group-item:nth-child(1) .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "752b817e-5a6a-4928-9b76-dd5e75672f2f",
+    "name": "deleteTask",
+    "commands": [{
+      "id": "491a4c5e-fef0-45d4-bdb3-1d27e1357668",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff5f49e0-8321-4d96-8822-da335e92bcda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a187611-27eb-428b-995b-119bc716cc8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ee5101-e874-4a28-8575-8d524cfb1614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(1) .btn-danger",
+      "targets": [
+        ["css=.list-group-item:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4c8559b8-9268-4eac-9692-6797bed21439",
+    "name": "addBlankTest",
+    "commands": [{
+      "id": "d4f845cc-2c0a-4854-a90b-295e2035acd2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec08529-f5b7-492c-8ae9-2c11753536fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1061x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf5e2233-9345-42cd-ba22-0e565b4413d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ba86038-ab8d-46f2-b45f-ab08af21875c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group:nth-child(1) .btn",
+      "targets": [
+        ["css=.input-group:nth-child(1) .btn", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d005bed-9def-4195-b9f4-af90482bb1a3",
+    "name": "editToBankTest",
+    "commands": [{
+      "id": "1d5c8a97-bd18-4261-adc5-271cbc453ce9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dc2625b-0971-4cd9-9305-d4c173c5ac9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1066x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce7791a0-87a2-458a-9999-a87a344f703b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dfb1d5a-fbe4-4dee-929a-9dbcb45ad456",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(1) .btn-success",
+      "targets": [
+        ["css=.list-group-item:nth-child(1) .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0455fbd2-5553-40cf-b311-7eb54d0e8c40",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body",
+      "targets": [
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4f55a80-d2f4-49f7-9e10-5a5f6e3f04c2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//ul[@id='todolist']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "521eda46-0470-4c8a-92e6-1474138d051e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(1) .btn-primary",
+      "targets": [
+        ["css=.list-group-item:nth-child(1) .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c402425-0f1e-42ac-b474-060556e37102",
+    "name": "testEditToAlreadyExistingTest",
+    "commands": [{
+      "id": "254b4fec-389c-4108-86eb-49dd7dbd1b71",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a26ab8d3-166c-402a-81d9-4c58913b949b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ca11678-fe3c-41a9-bd21-cba374dd1472",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec671f8-ab1d-4612-8914-1cc96d264f1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(6) .btn-success",
+      "targets": [
+        ["css=.list-group-item:nth-child(6) .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[22]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43de50c9-9b91-4077-8729-4429fbafcf17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(6)",
+      "targets": [
+        ["css=.list-group-item:nth-child(6)", "css:finder"],
+        ["xpath=//ul[@id='todolist']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e96388b-6dad-449d-ad09-df4933c8c419",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(6) .form-control",
+      "targets": [
+        ["css=.list-group-item:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//ul[@id='todolist']/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e4e3de8-a2a7-444f-85ac-2782ba7e8388",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//ul[@id='todolist']/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": "abcc"
+    }, {
+      "id": "74cb4aa5-0bd9-4f9b-ab06-6eec11b06cb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(6) .btn-primary",
+      "targets": [
+        ["css=.list-group-item:nth-child(6) .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//ul[@id='todolist']/div[6]/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9199abca-0416-467d-aaee-121b17927b53",
+    "name": "addAlreadyExisitngTest",
+    "commands": [{
+      "id": "e2112ff3-53ab-4d70-8ae9-543f3831b8c1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/#/Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26300f37-3633-46a1-87f6-2f0670a46007",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1074x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25056d97-058a-4dac-87d1-60a5d33a6bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Todo List')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navBarToggler']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/TodoList')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33ed82a9-5175-415d-bf3b-1253e25b0516",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37807dd-325a-4695-b5b7-15731a3c1fd2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12311"
+    }, {
+      "id": "53f99e6d-5c6c-4f88-8d58-0ef85ae12497",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group:nth-child(1) .btn",
+      "targets": [
+        ["css=.input-group:nth-child(1) .btn", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "95717e5e-2567-4b10-9bfe-18d675860aa2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["039a3064-98fa-4227-aa09-21083a6c30f1"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
